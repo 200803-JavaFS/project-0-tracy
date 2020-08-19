@@ -50,7 +50,7 @@ public class UserDAO implements IUserDAO {
 	@Override
 	public List<User> getAllCustomers() {
 		try(Connection con = ConnectionUtility.getConnection()) {
-			String sql = "SELECT * FROM users WHERE user_type = 'Customer';";
+			String sql = "SELECT * FROM users WHERE end_user = 'Customer';";
 			
 			Statement stmt = con.createStatement();
 			

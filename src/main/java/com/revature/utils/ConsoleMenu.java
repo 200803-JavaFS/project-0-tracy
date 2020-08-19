@@ -371,9 +371,7 @@ public class ConsoleMenu {
 			System.out.println("You may have typed something wrong. Please try again.");
 			consoleMenu();
 		}
-	}
-	
-	
+	}	
 }
 			
 			
